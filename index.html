@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qenanmos Media - ቀናንሞስ ሚዲያ</title>
+    <style>
+        /* አጠቃላይ የድረ-ገጹ ገጽታ (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* ጥቁር ዳራ */
+            color: #ffffff; /* ነጭ ጽሑፍ */
+            line-height: 1.6;
+        }
+
+        /* ራስጌ (Header) */
+        header {
+            background: linear-gradient(145deg, #0d3b14, #000000); /* ጥቁር አረንጓዴ ቅልቅል */
+            border-bottom: 5px solid #ffd700; /* የወርቅማ ቢጫ መስመር */
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        /* የሎጎ አቀማመጥ */
+        .logo-container img {
+            width: 150px; /* የሎጎው ስፋት */
+            height: 150px;
+            border-radius: 50%; /* ክብ እንዲሆን */
+            border: 4px solid #cc0000; /* ቀይ ክበብ */
+            box-shadow: 0px 0px 20px #ffd700; /* ቢጫ ፍንጣቂ ብርሃን */
+            object-fit: cover;
+        }
+
+        header h1 {
+            color: #ffd700; /* ቢጫ ቀለም */
+            margin: 15px 0 5px 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            color: #ffffff;
+            margin: 0;
+            font-size: 1.2rem;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        /* ዋናው ይዘት (Main Content) */
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #1e1e1e; /* ጥቁር ሳጥን */
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border-left: 6px solid #0d3b14; /* አረንጓዴ መስመር በግራ በኩል */
+        }
+
+        main h2 {
+            color: #ffd700;
+            border-bottom: 2px solid #cc0000; /* ቀይ መስመር ከርዕሱ በታች */
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            color: #e0e0e0;
+            text-align: justify;
+        }
+
+        /* ግርጌ (Footer) */
+        footer {
+            background-color: #0a0a0a;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            border-top: 3px solid #0d3b14;
+        }
+
+        footer h3 {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-links li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        /* የማኅበራዊ ሚዲያ ቀለማት */
+        .youtube { background-color: #cc0000; }
+        .tiktok { background-color: #010101; border: 1px solid #ffffff; }
+        .facebook { background-color: #1877f2; }
+
+        .social-links li a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(255,215,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Qenanmos Media Logo">
+        </div>
+        <h1>Qenanmos Media</h1>
+        <p>ቀናንሞስ ሚዲያ</p>
+    </header>
+
+    <main>
+        <h2>ስለ ጾመ ሐዋርያት</h2>
+        <p>
+            እዚህ ቦታ ላይ ስለ ጾመ ሐዋርያት የሚያስተምረውን ጽሑፍ በፈለጉት ጊዜ ማስገባት ይችላሉ። ይህ ክፍል የተዘጋጀው ጽሑፍዎን በምቾት እንዲያነቡ በጥሩ ሁኔታ ተለይቶ ነው።
+        </p>
+    </main>
+
+    <footer>
+        <h3>የማኅበራዊ ሚዲያ ገጾቻችን</h3>
+        <ul class="social-links">
+            <li><a href="https://www.youtube.com/@QenanmosMedia" target="_blank" class="youtube">YouTube</a></li>
+            <li><a href="http://tiktok.com/@qenanmosmedia" target="_blank" class="tiktok">TikTok</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61579911973940" target="_blank" class="facebook">Facebook</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
