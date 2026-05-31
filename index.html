@@ -21,13 +21,14 @@
             padding: 40px 20px;
         }
 
-        /* 🔄 ውጫዊው ቀይ መስመር (Border) የተጠፋበት የሎጎ ክፍል */
+        /* 🔄 መስመር (Border) የሌለው የሎጎ ክፍል */
         .logo-container img {
             width: 320px; 
             height: 320px;
             aspect-ratio: 1 / 1; 
             border-radius: 50%; 
-            box-shadow: 0px 0px 30px #ffd700; /* በዙሪያው ያለው ቢጫ ፍንጣቂ ብርሃን */
+            border: none; /* ❌ መስመሩ እዚህ ላይ ጠፍቷል */
+            box-shadow: 0px 0px 30px #ffd700; 
             object-fit: cover; 
         }
 
@@ -119,7 +120,6 @@
 </head>
 <body>
 
-    <!-- ራስጌ (Header) -->
     <header>
         <div class="logo-container">
             <img src="27310.jpg" alt="Qenanmos Media Logo">
@@ -128,7 +128,6 @@
         <p>ቀናንሞስ ሚዲያ</p>
     </header>
 
-    <!-- 📝 ዋናው ይዘት (Main Content) -->
     <main>
         <h2>ጾመ ሐዋርያት</h2>
         
@@ -156,7 +155,6 @@
         </div>
     </main>
 
-    <!-- ግርጌ (Footer) -->
     <footer>
         <h3>የማኅበራዊ ሚዲያ ገጾቻችን</h3>
         <ul class="social-links">
